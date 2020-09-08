@@ -239,3 +239,52 @@ tengah.
     line-height: 30px;
     letter-spacing: 5px;
 }
+
+/*6. position.html */
+/*
+property CSS yang dapat digunakan untuk menentukan posisi sebuah
+element HTML
+
+Static
+Position static digunakan untuk mengatur element menjadi statis secara default. element
+akan mengikuti posisi normal secara default.
+
+Relative
+Sebuah element HTML yang menggunakan position relative akan terletak pada posisi normal.
+
+Fixed
+Sebuah element HTML yang di setting dengan position fixed akan memiliki sifat tetap.
+tanpa ada perubahan bahkan jika halaman website di scroll. berlaku pengaturan left, bottom, top
+dan right pada position fixed.
+
+Absolute
+Element HTML yang menggunakan position absolute akan tertimpa dengan element lain.
+position adalah salah satu propertyposition css yang sangat berguna. salah satunya adalah untuk
+membuat menu dropdown dengan HTML dan CSS.
+*/
+
+.static {
+    background: blue;
+    position: static;
+}
+
+.relative {
+    background: red;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+}
+
+.fixed {
+    background: cyan;
+    position: fixed;
+    left: 40px;
+    padding: 10px;
+}
+
+.absolute {
+    background: green;
+    position: absolute;
+    left: 40px;
+    padding: 10px;
+}
