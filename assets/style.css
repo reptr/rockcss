@@ -86,3 +86,30 @@ Reset bertujuan untuk menghilangkan padding dan margin tersebut. */
     margin-left: 70px;
     padding-left: 20px;
 }
+
+/* font.html */
+/*
+font-size digunakan untuk mengatur ukuran font
+font-weight di gunakan untuk mengatur ketebalan font
+font-family untuk mengubah jenis font
+font-style digunakan untuk merubah gaya pada font.
+color digunakan untuk merubah warna font.
+*/
+
+.text_satu {
+    color: red;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.text_dua {
+    color: green;
+    font-size: 24pt;
+    font-style: italic;
+}
+
+.text_tiga {
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+}
