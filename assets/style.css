@@ -396,3 +396,22 @@ ul,
     list-style-type: upper-roman;
     /* list dengan bentuk romawi */
 }
+
+/*9. float.html */
+/*
+float berfungsi untuk mengatur letak element secara horizontal. ada empat
+value yang bisa di gunakan untuk property float, yaitu left, right, inherit dan none.
+Salah satu contoh penggunaan float yang paling sering di temukan adalah ketika kita
+ingin mebuat gaambar postigan website yang terletak di bagian samping tulisan konten. berikut
+akan diberikan contoh tentang penggunaan float pada CSS.
+*/
+
+h1 {
+    text-align: center;
+}
+
+.gambar {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
