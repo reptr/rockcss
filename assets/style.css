@@ -288,3 +288,81 @@ membuat menu dropdown dengan HTML dan CSS.
     left: 40px;
     padding: 10px;
 }
+
+/*7. border.html */
+/*
+ border-bottom, Mengatur garis yang terletak di bawah.
+ border-bottom-color, Mengatur warna garis yang terletak di bawah.
+ border-bottom-style, Mengatur style garis yang terletak di bawah.
+ border-bottom-width, Mengatur ukuran garis yang terletak di bawah.
+ border-color, Mengatur warna garis.
+ border-left, Mengatur garis yang terletak di sebelah kiri.
+ border-left-color, Mengatur warna garis yang terletak di sebelah kiri.
+ border-left-style, Mengatur style garis yang terletak di sebelah kiri.
+ border-left-width, Mengatur ukuran garis yang terletak di sebelah kiri.
+ border-right, Mengatur garis yang terletak di sebelah kanan.
+ border-right-color, Mengatur warna garis yang terletak di sebelah kanan.
+ border-right-style, Mengatur style garis yang terletak di sebelah kanan.
+ border-right-width, Mengatur ukuran garis yang terletak di sebelah kanan.
+ border-style, Mengatur style garis.
+ border-top, Mengatur garis yang terletak di sebelah atas.
+ border-top-color, Mengatur warna garis yang terletak di sebelah atas.
+ border-top-style, Mengatur style garis yang terletak di sebelah atas.
+ border-top-width, Mengatur ukuran garis yang terletak di sebelah atas.
+ border-width, Mengatur ukuran garis.
+*/
+#border_solid {
+    border-style: solid;
+    border-width: 5px;
+}
+
+#border_dotted {
+    border-style: dotted;
+    border-width: 10px;
+    border-color: red;
+}
+
+#border_dashed {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: blue;
+}
+
+#border_double {
+    border-style: double;
+    border-width: 9px;
+    border-color: green;
+}
+
+#border_groove {
+    border-style: groove;
+    border-width: 25px;
+    order-color: #12ff00;
+}
+
+#border_inset {
+    border-style: inset;
+    border-width: 5px;
+    border-color: yellow;
+}
+
+#border_outset {
+    border-style: outset;
+    border-width: 5px;
+    border-color: violet;
+}
+
+#border_ridge {
+    border-style: ridge;
+    border-width: 50px;
+    border-color: #333333;
+}
+
+/* Cara cepat memanipulasi border dengan CSS */
+#border_solid2 {
+    border: 1px solid blue;
+}
+
+#border_dotted2 {
+    border: 10px dotted green;
+}
