@@ -143,3 +143,19 @@ a:link = untuk link biasa
 .linked:linked {
     color: blueviolet;
 }
+
+.example-link,
+.example-link:link,
+.example-link:active,
+.example-link:visited {
+    font-size: 20pt;
+    background: yellow;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.example-link:hover {
+    background: #16A085;
+}
