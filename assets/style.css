@@ -1,0 +1,88 @@
+/* ===================== CONTOH =================== */
+
+/* Selektor dengan nama tag */
+h2 {
+    color: blue;
+}
+
+/* Selektor degnan class */
+.bg-yellow {
+    background-color: yellow;
+}
+
+/* selektor dengan ID elemen */
+#header {
+    background: grey;
+}
+
+/* Selektor dengan Atribut */
+input[type=text] {
+    background: yellow;
+}
+
+/* ===================== MY SCRIPT =================== */
+/* intro.html */
+/* selector tag */
+p {
+    color: blue;
+}
+
+/* selector class */
+.blues {
+    color: white;
+    background: blue;
+    padding: 5px;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-teal {
+    background: teal;
+}
+
+/* selector id */
+#header {
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+/* selector attribut */
+/* kita akan memilih semua elemen <input> yang memiliki atribut type='text'. */
+input[type=text] {
+    background: none;
+    color: cyan;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+/* css universal */
+/* Pada halaman HTML, ada beberapa CSS bawaan browser seperti padding dan margin pada elemen tertentu.
+
+Reset bertujuan untuk menghilangkan padding dan margin tersebut. */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* margin.html */
+.margin {
+    background: blue;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    /*jarak sisi luar sebesar 20 pixel*/
+    padding: 20px;
+    /*jarak sisi dalam sebesar 20 pixel*/
+}
+
+.margin-dua {
+    background: red;
+    height: 100px;
+    width: 200px;
+    margin-left: 70px;
+    padding-left: 20px;
+}
