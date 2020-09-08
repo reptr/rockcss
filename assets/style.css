@@ -366,3 +366,33 @@ membuat menu dropdown dengan HTML dan CSS.
 #border_dotted2 {
     border: 10px dotted green;
 }
+
+/*8. list.html */
+
+h1 {
+    text-align: center;
+}
+
+ul,
+.makanan {
+    list-style-type: square;
+    /* list dengan bentuk square */
+}
+
+.minuman {
+    list-style-type: circle;
+    /* list dengan bentuk lingkaran */
+}
+
+
+.alamat {
+    list-style-type: upper-alpha;
+    /* list dengan bentuk alpha */
+}
+
+.mobil {
+    list-style-type: none;
+    /* menghilangkan tanda list */
+    list-style-type: upper-roman;
+    /* list dengan bentuk romawi */
+}
