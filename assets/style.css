@@ -337,7 +337,7 @@ membuat menu dropdown dengan HTML dan CSS.
 #border_groove {
     border-style: groove;
     border-width: 25px;
-    order-color: #12ff00;
+    border-color: #12ff00;
 }
 
 #border_inset {
